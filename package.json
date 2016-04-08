@@ -1,0 +1,24 @@
+{
+  "name": "node-semaphoreci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulbir/node-semaphoreci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulbir/node-semaphoreci/issues"
+  },
+  "homepage": "https://github.com/rahulbir/node-semaphoreci#readme"
+}
