@@ -35,9 +35,9 @@ describe('Server', function() {
     });
   });
 
-  it('should return 404 on /test GET', function(done) {
+  it('should return 200 on /test GET', function(done) {
     request.get('http://localhost:3001/test', function(err, res, body) {
-      should.equal(res.statusCode, 404, 'invalid statusCode');
+      should.equal(res.statusCode, 200, 'invalid statusCode');
       done();
     });
   });
